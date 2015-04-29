@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+C:\Users\José\Documents\GitHub\SOLAR_project\.metadata\.plugins\org.eclipse.jdt.core
+848856923.index
+1284074322.index
+1674423911.index

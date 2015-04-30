@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imgMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/menu" />
+
+    <Button
+        android:id="@+id/btnDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:background="#FF4500"
+        android:textColor="#ffffff"
+        android:text="Best inclination for a specific day" />
+
+    <Button
+        android:id="@+id/btnYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnDay"
+        android:background="#FF8C00"
+        android:textColor="#ffffff"
+        android:text="Best inclination for the year" />
+
+    <Button
+        android:id="@+id/btnSeason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnYear"
+        android:background="#FFA500"
+        android:textColor="#ffffff"
+        android:text="Best inclination for a specific season" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imgMenu"
+        android:layout_marginTop="20dp"
+        android:text="Select one of the options below:" />
+
+</RelativeLayout>

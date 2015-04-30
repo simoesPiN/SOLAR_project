@@ -1,0 +1,14 @@
+import java.util.Calendar;
+
+
+public class Main {
+	
+	public static void main(String[] args) {
+	     System.out.println("Minha primeira aplicação Java!");
+	     
+	     Calendar data = Calendar.getInstance();
+	     System.out.println( data.get(data.DAY_OF_YEAR));
+	     System.out.println( data.get(data.DATE));
+	   }
+
+}

@@ -1,0 +1,6 @@
+
+public enum Seasonn {
+	Spring("North", "South"), Fall("North", "South"), Summer("North", "South"), Winter("North", "South");
+	
+	
+}
